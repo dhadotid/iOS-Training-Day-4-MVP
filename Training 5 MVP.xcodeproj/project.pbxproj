@@ -13,6 +13,9 @@
 		15E4F4F223459672009B0B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E4F4F023459672009B0B5D /* Main.storyboard */; };
 		15E4F4F423459674009B0B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E4F4F323459674009B0B5D /* Assets.xcassets */; };
 		15E4F4F723459674009B0B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E4F4F523459674009B0B5D /* LaunchScreen.storyboard */; };
+		15E4F4FF234596FD009B0B5D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4F4FE234596FD009B0B5D /* UserModel.swift */; };
+		15E4F50123459744009B0B5D /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4F50023459744009B0B5D /* UserPresenter.swift */; };
+		15E4F5032345977A009B0B5D /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4F5022345977A009B0B5D /* UserProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		15E4F4F323459674009B0B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15E4F4F623459674009B0B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15E4F4F823459674009B0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E4F4FE234596FD009B0B5D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		15E4F50023459744009B0B5D /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		15E4F5022345977A009B0B5D /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				15E4F4F323459674009B0B5D /* Assets.xcassets */,
 				15E4F4F523459674009B0B5D /* LaunchScreen.storyboard */,
 				15E4F4F823459674009B0B5D /* Info.plist */,
+				15E4F4FE234596FD009B0B5D /* UserModel.swift */,
+				15E4F50023459744009B0B5D /* UserPresenter.swift */,
+				15E4F5022345977A009B0B5D /* UserProtocol.swift */,
 			);
 			path = "Training 5 MVP";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			files = (
 				15E4F4EF23459672009B0B5D /* ViewController.swift in Sources */,
 				15E4F4EB23459672009B0B5D /* AppDelegate.swift in Sources */,
+				15E4F5032345977A009B0B5D /* UserProtocol.swift in Sources */,
+				15E4F4FF234596FD009B0B5D /* UserModel.swift in Sources */,
+				15E4F50123459744009B0B5D /* UserPresenter.swift in Sources */,
 				15E4F4ED23459672009B0B5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
